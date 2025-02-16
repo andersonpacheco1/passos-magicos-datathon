@@ -2,17 +2,17 @@ import streamlit as st
 import pickle
 import pandas as pd
 from pathlib import Path
-import pycaret.classification as pc
+from pycaret.classification import load_model
 
 # Caminho do modelo salvo
 model_path = Path(__file__).parent.parent / "models/lr_pedra_classification"
 
 @st.cache_resource
-def load_model():
-    return pc.load_model(model_path.with_suffix(''))
+def load_prof_model():
+    return load_model(model_path.with_suffix(''))
 
 # Carregar o modelo
-model = load_model()
+model = load_prof_model()
 
 st.title("Simulador de Pedra de Alunos")
 
