@@ -88,3 +88,13 @@
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2025-02-12 02:39:29,100:INFO:Initializing load_model()
 2025-02-12 02:39:29,100:INFO:load_model(model_name=/Users/andersonpacheco/Documents/Estudos/01 - Pós Graduacao/00 - Datathon/passos-magicos-analysis/models/lr_pedra_classification, platform=None, authentication=None, verbose=True)
+2025-02-16 10:08:24,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-16 10:08:24,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-16 10:08:24,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-16 10:08:24,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-16 10:08:25,551:INFO:Initializing load_model()
+2025-02-16 10:08:25,551:INFO:load_model(model_name=/Users/andersonpacheco/Documents/Estudos/01 - Pós Graduacao/00 - Datathon/passos-magicos-analysis/models/lr_pedra_classification, platform=None, authentication=None, verbose=True)
