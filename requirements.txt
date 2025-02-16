@@ -63,7 +63,6 @@ pmdarima==2.0.4
 prompt_toolkit
 protobuf==5.29.3
 psutil
-psycopg2==2.9.10
 psycopg2-binary==2.9.10
 ptyprocess
 pure_eval
