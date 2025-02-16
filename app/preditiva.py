@@ -2,14 +2,16 @@ import streamlit as st
 import pickle
 import pandas as pd
 from pathlib import Path
-from pycaret.classification import load_model
+# from pycaret.classification import load_model
+import joblib
 
 # Caminho do modelo salvo
-model_path = Path(__file__).parent.parent / "models/lr_pedra_classification"
+model_path = Path(__file__).parent.parent / "models/lr_pedra_classification.pkl"
 
 @st.cache_resource
 def load_prof_model():
-    return load_model(model_path.with_suffix(''))
+    # return load_model(model_path.with_suffix(''))
+    return joblib.load(model_path)
 
 # Carregar o modelo
 model = load_prof_model()
